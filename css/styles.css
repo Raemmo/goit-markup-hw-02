@@ -21,11 +21,8 @@
 height: 600px;  
 
 font-family: Roboto;
-font-size: 56px;
-font-style: normal;
-font-weight: 700;
-line-height: 1.7cm; 
-letter-spacing: 1.12px;
+
+
 }
 
 .hero-section {
@@ -36,10 +33,6 @@ color: #404BBF;
 .button-primery {
     border: none;
 background-color: var(--iris-color); 
-display: inline-flex;
-padding: 16px 32px;
-align-items: flex-start;
-border-radius: 4px;
 
 } 
 
@@ -63,6 +56,11 @@ border-radius: 4px;
 .hero-title { 
     color: var(--white-color) ;
     background-color: var(--primary-text-color);
+padding: 292px 472px;
+padding-left: 472px;
+padding-top: 188px;
+padding-bottom: 292px;
+padding-right: 472px;
 }
 
 .hero-portfolio {
@@ -88,4 +86,8 @@ background-color: var(--white-color);
 .start-mid {
 color: #111111;
 
+}
+
+ul {
+    list-style-type: none;
 }
