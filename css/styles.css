@@ -1,0 +1,91 @@
+:root    {
+    --primary-text-color: #2e2f42;
+    --text-color: #434455;
+    --footer-text-color: #e7e9fc;
+    --background-white-color: #f4f4fd;
+    --iris-color: #4d5ae5;
+    --white-color: #ffffff;
+    --accent-color:  #404bbf  ; 
+}
+
+
+
+.site-link:hover {
+    color: #404BBF;
+}
+
+
+.hero-section {
+    background-color: var(--primary-text-color);
+    width: 1440px;
+height: 600px;  
+
+font-family: Roboto;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.7cm; 
+letter-spacing: 1.12px;
+}
+
+.hero-section {
+color: #404BBF;
+
+}
+
+.button-primery {
+    border: none;
+background-color: var(--iris-color); 
+display: inline-flex;
+padding: 16px 32px;
+align-items: flex-start;
+border-radius: 4px;
+
+} 
+
+
+.button-primery:hover {
+    color: var(--white-color) ;
+    background-color:var(--accent-color) ;
+    cursor: pointer;
+    border: none;
+}
+
+.team {
+   
+   
+    background: var(--background-white-color)
+
+}
+
+
+
+.hero-title { 
+    color: var(--white-color) ;
+    background-color: var(--primary-text-color);
+}
+
+.hero-portfolio {
+background-color: var(--white-color);
+
+}
+
+.team {
+    color: #111111;
+}
+
+.teams {
+
+    color:  #111111;
+}
+
+
+.hero-portfolio {
+    color:  #111111;
+
+}
+
+.start-mid {
+color: #111111;
+
+}
