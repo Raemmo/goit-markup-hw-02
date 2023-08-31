@@ -164,10 +164,25 @@ line-height: 1.2;
 }
 
 .start-mid {
-color: #111111;
-
-}
-
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--primary-text-color);
+    text-transform: capitalize;
+  }
+  
+  .title-text {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    color: var(--primary-text-color);
+    text-transform: capitalize;
+  }
+  
+  .section-text {
+    font-size: 16px;
+  line-height: 1.5;
+  }
 
 a {
     text-decoration: none;
@@ -178,13 +193,18 @@ ul {
     list-style-type: none;
 }
 
-
+.title-text{ font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    color: var(--primary-text-color);
+    text-transform: capitalize;}
  
 .section-title {
-    color: var(--primary-text-color);
-    font-size: 20px;
     font-weight: 500;
-    line-height: 1.2 ;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--primary-text-color);
+    text-transform: capitalize; 
 }
 
 
