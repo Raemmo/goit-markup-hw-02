@@ -34,6 +34,7 @@ body {
 .logo-text {
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .hero-section {
@@ -55,8 +56,9 @@ color: var(--accent-color);
     border: none;
 background-color: var(--iris-color); 
 color: var(--white-color);
-
-} 
+padding: 16px 32px;
+border-radius: 4px;
+}
 
 
 .button-primery:hover {
@@ -78,12 +80,15 @@ color: var(--white-color);
 .hero-title { 
     color: var(--white-color) ;
     background-color: var(--primary-text-color);
-padding: 292px 472px;
 padding-left: 472px;
 padding-top: 188px;
 padding-bottom: 292px;
 padding-right: 472px;
-}
+font-size: 56px;
+font-weight: 700;
+line-height: 60px; 
+letter-spacing: 1.12px;
+
 
 .hero-portfolio {
 background-color: var(--white-color);
@@ -113,3 +118,32 @@ color: #111111;
 ul {
     list-style-type: none;
 }
+
+
+
+
+/* footer  */
+
+.footer-site {
+    background-color: var(--primary-text-color);
+width: 1440px;
+height: 312px;
+}
+.footer-logo {
+    text-decoration: none;
+    font-family: raleway, sans-serif;
+    color: var(--background-white-color);
+  }
+  
+  .footer-object {
+    color: var(--iris-color);
+  }
+  
+  .footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--background-white-color);
+    font-family: Roboto;
+font-weight: 400;
+letter-spacing: 0.32px;
+  }
