@@ -12,12 +12,15 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--black-color);
+    color: #434455;
+    background-color: #ffffff;
+    
 }
 
 .site-link {
     color: #404BBF;
     text-decoration: none;  
+    font-family: "Raleway", sans-serif
 }
 
 
@@ -29,15 +32,19 @@ body {
 
 .site-nav {
     text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    color: #404BBF;
 }
 
 .logo{
     text-decoration: none;
-    font-family: raleway, sans-serif;
-    font-size: 18px;  
-font-weight: 700;
-line-height: 1.16;
-color: var(--black-color);
+    font-size: 16px ;  
+    font-weight: 500 ;
+    line-height: 1.17 ;
+    letter-spacing: 0.03em ;
+    text-transform: uppercase;
+    color : #4d5ae5 ;
+font-family: "Raleway", sans-serif
 }
 
 
@@ -46,7 +53,7 @@ color: var(--black-color);
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
     text-transform: uppercase;
-    color: var(--iris-color);
+    color: #2e2f42;
 }
 
 .hero-section {
@@ -169,21 +176,17 @@ height: 312px;
     padding: 200px 101.5px 1169px 189.5px;
  }
   
-  .footeцr-object {
-    font-family: 'Raleway', sans-serif;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: var(--iris-color);
-  }
+
   
-  .footer-text {
+  
+  .footer-last {
     font-size: 16px;
     line-height: 1.5;
-    color: var(--background-white-color);
-    font-family: Roboto;
+    color: #f4f4fd;
+    font-family: Raleway;
 font-weight: 400;
 letter-spacing: 0.32px;
-padding: 156px 140px 1020px 100px;
+
   }
 
 
