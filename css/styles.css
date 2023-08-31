@@ -12,6 +12,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: var(--black-color);
 }
 
 .site-link {
@@ -30,50 +31,63 @@ body {
     text-decoration: none;
 }
 
+.logo{
+    text-decoration: none;
+    font-family: raleway, sans-serif;
+    font-size: 18px;  
+font-weight: 700;
+line-height: 1.16;
+color: var(--black-color);
+}
+
+
 
 .logo-text {
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
     text-transform: uppercase;
+    color: var(--iris-color);
 }
 
 .hero-section {
     background-color: var(--primary-text-color);
     width: 1440px;
 height: 600px;  
-
-;
-
-
-}
-
-.hero-section {
 color: var(--accent-color);
 
 }
 
+
+.section-text {
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5 ;
+}
+
+
 .button-primery {
     border: none;
-background-color: var(--iris-color); 
+height: 56px;
+width: 169px;
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+background: var(--iris-color);
 color: var(--white-color);
-padding: 16px 32px;
 border-radius: 4px;
+border: 0px solid;
+cursor: pointer;
 }
 
 
-.button-primery:hover {
-    color: var(--white-color) ;
-    background-color:var(--accent-color) ;
-    cursor: pointer;
-    border: none;
+.button-primery:hover  {
+        background: var(--accent-color);
+        color: var(--white-color);
 }
 
-.team {
-   
-   
-    background: var(--background-white-color)
 
-}
 
 
 
@@ -88,7 +102,7 @@ font-size: 56px;
 font-weight: 700;
 line-height: 60px; 
 letter-spacing: 1.12px;
-
+}
 
 .hero-portfolio {
 background-color: var(--white-color);
@@ -97,11 +111,17 @@ background-color: var(--white-color);
 
 .team {
     color: #111111;
+background-color: var(--background-white-color);
 }
+    
 
 .teams {
 
     color:  #111111;
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
 }
 
 
@@ -115,11 +135,24 @@ color: #111111;
 
 }
 
+
+a {
+    text-decoration: none;
+}
+
 ul {
+    color: #111;
     list-style-type: none;
 }
 
 
+ 
+.section-title {
+    color: var(--primary-text-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2 ;
+}
 
 
 /* footer  */
@@ -133,10 +166,12 @@ height: 312px;
     text-decoration: none;
     font-family: raleway, sans-serif;
     color: var(--background-white-color);
-  }
+    padding: 200px 101.5px 1169px 189.5px;
+ }
   
-  .footer-object {
+  .footeцr-object {
     color: var(--iris-color);
+    
   }
   
   .footer-text {
@@ -146,4 +181,8 @@ height: 312px;
     font-family: Roboto;
 font-weight: 400;
 letter-spacing: 0.32px;
+padding: 156px 140px 1020px 100px;
   }
+
+
+ 
