@@ -283,7 +283,7 @@ height: 312px;
   .footer-last {
     font-size: 16px;
     line-height: 1.5;
-    color: #4D5AE5;
+    color: #2e2f42 ;
     font-family: Raleway; 
 font-weight: 400;
 letter-spacing: 0.32px;
@@ -321,3 +321,10 @@ letter-spacing: 0.32px;
     text-transform: uppercase ;    
 }
 
+.studio {
+    color: var(--title-text-color);
+    font-size: 18px;
+    line-height: 1;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+  }
