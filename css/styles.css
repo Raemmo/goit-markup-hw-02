@@ -142,7 +142,7 @@ letter-spacing: 0.04em
 
 .hero-title { 
     color: var(--white-color) ;
-    background-color: var(--primary-text-color);
+    background-color:  #2e2f42 ;
 padding-left: 472px;
 padding-top: 188px;
 padding-bottom: 292px;
@@ -154,11 +154,19 @@ letter-spacing: 1.12px;
 line-height: 1.07
 }
 
+.hero-title:hover
+{
+    background-color: #404BBF
+ }
 
+ .hero-title:focus
+{
+    background-color: #404BBF
+ }
 
 .team {
     color: #111111;
-background-color: #ffffff;
+    background-color: #F4F4FD;
 font-size: 36px ;
 line-height: 1.11 ;
 text-align: center;
@@ -176,9 +184,8 @@ font-family: Roboto;
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
-background-color: #F4F4FD ;
 letter-spacing: 0.02em ;
-background-color: var(--background-white-color);
+background-color: #FFFFFF ;
 
 }
 
@@ -187,6 +194,7 @@ background-color: var(--background-white-color);
     color:  #111111;
     letter-spacing: 0.02em ;
     background-color: var(--white-color);
+    
 }
 
 .start-mid {
