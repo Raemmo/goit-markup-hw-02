@@ -80,7 +80,7 @@ font-family: "Raleway", sans-serif
 }
 
 .hero-section {
-    background-color: var(--primary-text-color);
+    background-color:  #2e2f42;
     width: 1440px;
 height: 600px;  
 color: var(--accent-color);
@@ -88,7 +88,7 @@ line-height: 1.07 ;
 text-align: center ;
 letter-spacing: 0.04em ;
 background-color: #404BBF ;
-background-color: #404BBF ;
+
 }
 
 
@@ -116,13 +116,15 @@ color: var(--white-color);
 border-radius: 4px;
 border: 0px solid;
 cursor: pointer;
+letter-spacing: 0.04em
 }
 
 
 .button-primery:hover  {
-        background: var(--accent-color);
+        background-color:  #404BBF;
         color: var(--white-color);
 }
+
 
 
 
@@ -139,6 +141,7 @@ font-size: 56px;
 font-weight: 700;
 line-height: 60px; 
 letter-spacing: 1.12px;
+line-height: 1.07
 }
 
 .hero-portfolio {
@@ -167,7 +170,9 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 background-color: #FFFFFF ;
-letter-spacing: 0.02em
+letter-spacing: 0.02em ;
+background-color: var(--background-white-color);
+
 }
 
 
@@ -182,6 +187,7 @@ letter-spacing: 0.02em
     line-height: 1.2;
     color: var(--primary-text-color);
     text-transform: capitalize;
+    letter-spacing: 0.02em
   }
   
   .title-text {
@@ -213,9 +219,13 @@ ul {
 
 .title-text{ font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     color: var(--primary-text-color);
-    text-transform: capitalize;}
+    text-transform: capitalize;
+    letter-spacing: 0.02em
+
+
+}
  .site-link {
 
     text-decoration: none;
