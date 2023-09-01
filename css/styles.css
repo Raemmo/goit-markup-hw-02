@@ -295,14 +295,14 @@ letter-spacing: 0.32px;
  
 .logo-las {
     text-decoration: none;
-    font-family: raleway, sans-serif;
-    color: #f4f4f4;
-    padding: 200px 101.5px 1169px 189.5px;
-    font-weight: 700 ;
-    font-size: 18px ; 
-    line-height: 1.17 ;
-    letter-spacing: 0.03em ;
-    text-transform: uppercase ;  
+    font-family: "Raleway", sans-serif, 
+    color : #f4f4f4;
+    padding : 200px 101.5px 1169px 189.5px;
+    font-weight : 700 ;
+    font-size : 18px ; 
+    line-height : 1.17 ;
+    letter-spacing : 0.03em ;
+    text-transform : uppercase ;  
 
 }
 
