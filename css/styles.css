@@ -192,9 +192,8 @@ background-color: #FFFFFF ;
 
 .hero-portfolio {
     color:  #111111;
-    letter-spacing: 0.02em ;
     background-color: var(--white-color);
-    
+    letter-spacing: 0.02em ;
 }
 
 .start-mid {
