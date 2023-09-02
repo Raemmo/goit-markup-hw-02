@@ -51,6 +51,12 @@ font-family: "Raleway", sans-serif
 font-family: "Raleway", sans-serif
 }
 
+.site-tele{
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+    color: var(--text-color);
+}
 
 .site-adress {
     font-size: 16px;
