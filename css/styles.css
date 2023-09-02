@@ -36,7 +36,7 @@ font-family: "Raleway", sans-serif
    
 }
  
-.start {display: none ;}
+
 
 .site-nav {
     text-decoration: none;
@@ -133,7 +133,8 @@ letter-spacing: 0.04em
 }
  
 .button-primery:focus {
-   color: #404bbf
+   color: #404bbf ;
+   background-color: #404BBF
 }
 
 
@@ -165,7 +166,7 @@ line-height: 1.07
  }
 
 .team {
-    color: #111111;
+    
     background-color: #F4F4FD;
 font-size: 36px ;
 line-height: 1.11 ;
@@ -212,7 +213,7 @@ background-color: #FFFFFF ;
     color: var(--primary-text-color);
     text-transform: capitalize;
     text-align: center ;
-    letter-spacing: 0.02em ;
+    letter-spacing: 0.02em ; 
     text-transform: capitalize ;
     color: #2e2f42;
    
@@ -267,6 +268,7 @@ font-family: "Raleway", sans-serif
     line-height: 1.2;
     color: var(--primary-text-color);
     text-transform: capitalize; 
+    letter-spacing: 0.02em ; 
 }
 
 
@@ -274,8 +276,7 @@ font-family: "Raleway", sans-serif
 
 .footer-site {
     background-color: var(--primary-text-color);
-width: 1440px;
-height: 312px;
+
 }
 
   
@@ -313,7 +314,6 @@ height: 312px;
     text-decoration: none;
     font-family: raleway, sans-serif;
     color:  #f4f4fd;
-    padding: 200px 101.5px 1169px 189.5px;
     font-weight: 700 ;
     font-size: 18px ; 
     line-height: 1.17 ;
