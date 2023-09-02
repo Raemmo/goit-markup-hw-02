@@ -193,7 +193,7 @@ background-color: #FFFFFF ;
 .hero-portfolio {
     color:  #111111;
     background-color: var(--white-color);
-    letter-spacing: 0.02em ;
+    letter-spacing: 0.02em
 }
 
 .start-mid {
@@ -311,13 +311,13 @@ height: 312px;
  
 .logo-las {
     text-decoration: none;
-    font-family: "Raleway", sans-serif ;
-    color: #4d5ae5 ;
-    font-weight: 700 ;
-    font-size: 18px ; 
+    font-family: "Raleway", sans-serif;
+    font-weight: 700; 
+    font-size: 18px;
     line-height: 1.17 ;
     letter-spacing: 0.03em ;
-    text-transform: uppercase ; 
+    text-transform: uppercase ;
+    color: #4d5ae5; 
 }
 
 
